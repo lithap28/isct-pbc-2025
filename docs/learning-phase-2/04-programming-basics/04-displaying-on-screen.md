@@ -1,6 +1,6 @@
 # 4.4 Displaying on Screen
 
-## What You'll Learn
+## 4.4.1 What You'll Learn
 
 - JSX syntax and rules
 - What React components are
@@ -8,7 +8,7 @@
 - Passing data with props
 - Building a pet profile card component
 
-## Understanding JSX
+## 4.4.2 Understanding JSX
 
 **JSX** (JavaScript XML) is a syntax extension that lets you write HTML-like code in JavaScript.
 
@@ -60,7 +60,7 @@ return (
 <div className={isActive ? "active" : "inactive"}></div>
 ```
 
-## What are Components?
+## 4.4.3 What are Components?
 
 **Components** are reusable pieces of UI. Think of them as custom HTML tags.
 
@@ -117,7 +117,7 @@ function Greeting() {
 <Greeting />
 ```
 
-## Props: Passing Data to Components
+## 4.4.4 Props: Passing Data to Components
 
 **Props** (properties) are how you pass data to components.
 
@@ -181,7 +181,7 @@ function PetCard({ name, species, age }: PetCardProps) {
 }
 ```
 
-## Exercise 1: Create a PetCard Component
+## 4.4.5 Exercise 1: Create a PetCard Component
 
 ### Task
 
@@ -259,7 +259,7 @@ if (species === "Dog") emoji = "🐕"
 - Set emoji based on species
 - We'll learn a better way to do conditionals soon!
 
-## Exercise 2: Use the PetCard Component
+## 4.4.6 Exercise 2: Use the PetCard Component
 
 ### Task
 
@@ -356,7 +356,7 @@ export default function Home() {
 
 You should see 3 beautiful pet cards in a grid!
 
-## Common Mistakes
+## 4.4.7 Common Mistakes
 
 ### 1. Forgetting to Import
 
@@ -408,7 +408,7 @@ export default function PetCard() { ... }
 <div className="container">
 ```
 
-## Checkpoint
+## 4.4.8 Checkpoint
 
 You should now understand:
 
@@ -417,7 +417,7 @@ You should now understand:
 - ✅ Passing props to components
 - ✅ TypeScript prop types
 
-## What's Next?
+## 4.4.9 What's Next?
 
 You can now create components and pass props, but you're manually creating three `<PetCard>` components.
 

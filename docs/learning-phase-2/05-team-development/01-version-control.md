@@ -1,12 +1,12 @@
 # 5.1 Version Control Basics
 
-## Objectives
+## 5.1.1 Objectives
 
 - Understand what version control is and why it matters
 - Learn about Git and GitHub
 - Understand core concepts: repositories, commits, branches
 
-## What is Version Control?
+## 5.1.2 What is Version Control?
 
 **Version control** (also called source control) is a system that tracks changes to files over time.
 
@@ -53,7 +53,7 @@ Version history:
 - ✅ Merge changes from multiple people
 - ✅ Work offline, sync later
 
-## Why Software Needs Version Control
+## 5.1.3 Why Software Needs Version Control
 
 Software development has unique challenges:
 
@@ -101,7 +101,7 @@ Need ability to easily revert
 
 **Version control enables safe experimentation!**
 
-## Git: The Version Control System
+## 5.1.4 Git: The Version Control System
 
 **Git** is the most popular version control system in the world.
 
@@ -120,7 +120,7 @@ Need ability to easily revert
 - **Popular:** Huge ecosystem and community
 - **Free and open source**
 
-## GitHub: Git Hosting Platform
+## 5.1.5 GitHub: Git Hosting Platform
 
 **GitHub** hosts Git repositories in the cloud.
 
@@ -154,7 +154,7 @@ GitHub = The service (hosts Git repositories)
 
 But GitHub is the most popular (100+ million users).
 
-## Core Concepts
+## 5.1.6 Core Concepts
 
 ### Repository (Repo)
 
@@ -228,7 +228,7 @@ Working Directory → Staging Area → Local Repository → Remote Repository
 3. **Local Repository:** Committed history on your computer
 4. **Remote Repository:** History on GitHub
 
-## The Git Workflow
+## 5.1.7 The Git Workflow
 
 ### Basic Cycle
 
@@ -242,7 +242,7 @@ Working Directory → Staging Area → Local Repository → Remote Repository
 4. Push to GitHub (git push)
 ```
 
-## Real-World Git Workflow (Reference)
+## 5.1.8 Real-World Git Workflow (Reference)
 
 In professional software development, teams use more sophisticated workflows for safety and quality:
 
@@ -312,7 +312,7 @@ Communicate about changes
 
 **Remember:** You're learning the fundamentals now. The advanced workflows build on these basics!
 
-## Key Takeaways
+## 5.1.9 Key Takeaways
 
 - ✅ Version control tracks all changes to your code
 - ✅ Git is the standard version control system
@@ -322,7 +322,7 @@ Communicate about changes
 - ✅ Professional teams use branches and Pull Requests (we'll use main branch only)
 - ✅ Our simplified workflow is perfect for learning and small teams
 
-## Common Questions
+## 5.1.10 Common Questions
 
 **Q: Do I need Git for small projects?**
 A: Yes! Even solo projects benefit from version control. It's free backup, history, and experimentation.
@@ -336,7 +336,7 @@ A: Git usually merges automatically. If it can't, you resolve conflicts manually
 **Q: Is my code public on GitHub?**
 A: Only if you make the repository public. You can have private repositories (free on GitHub).
 
-## What's Next?
+## 5.1.11 What's Next?
 
 Now that you understand *why* version control matters and *what* Git is, you're ready to use it!
 

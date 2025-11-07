@@ -1,6 +1,6 @@
 # 4.8 Using Libraries
 
-## What You'll Learn
+## 4.8.1 What You'll Learn
 
 - What libraries are and why they're useful
 - Installing packages with npm
@@ -8,7 +8,7 @@
 - Creating pie charts and bar charts
 - Understanding library components
 
-## What are Libraries?
+## 4.8.2 What are Libraries?
 
 **Libraries** (also called packages) are pre-written code that you can use in your projects.
 
@@ -68,7 +68,7 @@ Libraries let you focus on what makes your app unique, not reinventing common so
 5. **Utilities** - Helper functions
    - lodash, clsx
 
-## Why Use Libraries?
+## 4.8.3 Why Use Libraries?
 
 ### 1. Save Time and Focus on Your App
 
@@ -90,7 +90,7 @@ Spend time on features that make your app unique, not common problems.
 4. **Reliability** - Used in production by many companies
 5. **Best Practices** - Follow standards
 
-## What is recharts?
+## 4.8.4 What is recharts?
 
 **recharts** is a charting library built for React.
 
@@ -110,7 +110,7 @@ Spend time on features that make your app unique, not common problems.
 - Area Chart (面グラフ)
 - And more!
 
-## Exercise 1: Install recharts
+## 4.8.5 Exercise 1: Install recharts
 
 ### Task
 
@@ -156,7 +156,7 @@ npm run dev
 - Recorded it in `package.json`
 - Now you can import and use recharts components!
 
-## Exercise 2: Create a Pie Chart
+## 4.8.6 Exercise 2: Create a Pie Chart
 
 ### Task
 
@@ -282,7 +282,7 @@ You should see a colorful pie chart showing the distribution of your pets!
 
 **Try hovering over the chart** - you'll see tooltips with details!
 
-## Exercise 3: Create a Bar Chart
+## 4.8.7 Exercise 3: Create a Bar Chart
 
 ### Task
 
@@ -377,7 +377,7 @@ import PetAgeChart from '../components/PetAgeChart'
 
 6. **Save** and check - you now have two charts showing different insights!
 
-## Evaluating and Choosing Libraries
+## 4.8.8 Evaluating and Choosing Libraries
 
 ### Where to Evaluate Libraries
 
@@ -441,7 +441,7 @@ import PetAgeChart from '../components/PetAgeChart'
 - Look for `LICENSE` file in GitHub repository
 - npm package page shows the license
 
-## Common npm Commands
+## 4.8.9 Common npm Commands
 
 ```bash
 # Install a package
@@ -463,7 +463,7 @@ npm list
 npm outdated
 ```
 
-## Checkpoint
+## 4.8.10 Checkpoint
 
 You should now understand:
 
@@ -473,7 +473,7 @@ You should now understand:
 - ✅ How to create charts with recharts
 - ✅ How to evaluate libraries before using them
 
-## What's Next?
+## 4.8.11 What's Next?
 
 You can now use external libraries to add powerful features quickly!
 

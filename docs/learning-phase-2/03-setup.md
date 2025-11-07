@@ -1,6 +1,6 @@
 # Section 3: Setup - Development Environment & Account Setup
 
-## Objectives
+## 3.1 Objectives
 
 - Install all necessary development tools
 - Create accounts for cloud services
@@ -8,7 +8,7 @@
 - Verify local development works
 - Deploy to production and verify
 
-## Overview
+## 3.2 Overview
 
 By the end of this section, you will have:
 
@@ -23,7 +23,7 @@ By the end of this section, you will have:
 
 ---
 
-## 1. Install VSCode
+## 3.3 Install VSCode
 
 **Visual Studio Code** is your code editor where you'll write all your code.
 
@@ -57,7 +57,7 @@ By the end of this section, you will have:
 
 ---
 
-## 2. Install Node.js
+## 3.4 Install Node.js
 
 **Node.js** is required to run JavaScript locally and use development tools.
 
@@ -204,7 +204,7 @@ This allows npm scripts to run on your system.
 
 ---
 
-## 3. Install Git
+## 3.5 Install Git
 
 **Git** is version control software that tracks your code changes.
 
@@ -317,7 +317,7 @@ user.email=your.email@example.com
 
 ---
 
-## 4. Create GitHub Account
+## 3.6 Create GitHub Account
 
 **GitHub** hosts your code online and integrates with deployment.
 
@@ -335,7 +335,7 @@ user.email=your.email@example.com
 
 **Keep GitHub open in your browser - you'll need it soon.**
 
-## Complete Picture for now
+## 3.7 Complete Picture for now
 
 **What you've accomplished so far:**
 
@@ -361,7 +361,7 @@ These are the tools we'll set up next, so your application can be accessed by an
 
 ---
 
-## 5. Create Vercel Account
+## 3.8 Create Vercel Account
 
 **Vercel** will host your deployed application on the internet.
 
@@ -384,7 +384,7 @@ These are the tools we'll set up next, so your application can be accessed by an
 
 ---
 
-## 6. Create Supabase Project
+## 3.9 Create Supabase Project
 
 **Supabase** is your database where pet data will be stored.
 
@@ -412,7 +412,7 @@ These are the tools we'll set up next, so your application can be accessed by an
 
 ---
 
-## All Set! Your Development Environment is Ready
+## 3.10 All Set! Your Development Environment is Ready
 
 **Congratulations! You've completed all the preparation steps.**
 
@@ -436,7 +436,7 @@ You now have everything needed to develop and deploy web applications:
 
 ---
 
-## 7. Fork and Clone the Starter Project
+## 3.11 Fork and Clone the Starter Project
 
 Now let's get your own copy of the starter code.
 
@@ -522,7 +522,7 @@ pet-management-starter/
 
 ---
 
-## 8. Install Dependencies
+## 3.12 Install Dependencies
 
 Projects depend on external libraries. Let's install them.
 
@@ -585,7 +585,7 @@ added 312 packages, and audited 313 packages in 45s
 
 ---
 
-## 9. Configure Environment Variables
+## 3.13 Configure Environment Variables
 
 Your app needs to know how to connect to Supabase.
 
@@ -713,7 +713,7 @@ If the connection test passes, you're ready to continue!
 
 ---
 
-## 10. Run the Development Server
+## 3.14 Run the Development Server
 
 Time to see your app running locally!
 
@@ -766,7 +766,7 @@ You should see:
 
 ---
 
-## 11. Deploy to Vercel
+## 3.15 Deploy to Vercel
 
 Let's put your app on the internet!
 
@@ -872,7 +872,7 @@ Let's do that now and see the magic of automatic deployment.
 
 ---
 
-## 12. Push Your Changes and See Auto-Deployment
+## 3.16 Push Your Changes and See Auto-Deployment
 
 Remember when you changed "Hello World" to "Hello Pet Management App!" on your local computer? That change is still only on your computer. Let's push it to GitHub and watch Vercel automatically deploy it!
 

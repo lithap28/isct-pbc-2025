@@ -1,14 +1,14 @@
 # Section 2: AI Agent Demo
 
-## Overview
+## 2.1 Overview
 
 - Witness the power of AI-assisted development
 - Recognize why programming fundamentals still matter
 - Get inspired about what you'll be able to build
 
-## What Are AI Agents?
+## 2.2 What Are AI Agents?
 
-### Definition
+### 2.2.1 Definition
 
 An **AI Agent** is an AI system that understands a goal and autonomously takes actions to complete tasks.
 It follows a decision-making cycle — thinking based on human instructions, gathering necessary information, deciding what to do, and producing results.
@@ -21,7 +21,7 @@ It interacts with the user and provides answers or explanations.
 AI Agent: Action-oriented type.
 It receives instructions, uses multiple tools, and automatically **progresses through tasks**.
 
-### Popular AI Agents for programming
+### 2.2.2 Popular AI Agents for programming
 
 In programming, it is becoming increasingly common to use AI agents.
 There are various tools equipped with AI agents.
@@ -32,7 +32,7 @@ There are various tools equipped with AI agents.
 - **Cursor** - AI-powered code editor
 - **v0** (by Vercel) - Generates React components
 
-### How They Work
+### 2.2.3 How They Work
 
 ```
 You describe what you want in natural language
@@ -48,9 +48,9 @@ You review and use the code
 
 ![](images/2025-11-02-15-23-11.png)
 
-## Today's Demo: Encouragement Message App
+## 2.3 Today's Demo: Encouragement Message App
 
-### What We'll Build
+### 2.3.1 What We'll Build
 
 A beautiful web application that:
 - Displays an inspirational message
@@ -60,7 +60,7 @@ A beautiful web application that:
 - Uses emojis and attractive design
 - Works immediately without a database
 
-### Why This App?
+### 2.3.2 Why This App?
 
 **Perfect for demonstration:**
 - ✅ Built in seconds
@@ -75,17 +75,17 @@ A beautiful web application that:
 - You'll learn with the Pet Management app
 - That app will teach you fundamentals systematically
 
-## Live Demonstration
+## 2.4 Live Demonstration
 
 **The instructor will now demonstrate building the app using an AI agent.**
 
-### What to Watch For
+### 2.4.1 What to Watch For
 
 1. **The prompt** - How the instructor asks the AI
 2. **How it works** - AI thinks and automatically progresses through tasks
 3. **The final result** - A fully functional app
 
-### The Prompt Example 1
+### 2.4.2 The Prompt Example 1
 
 ```
 Create a beautiful web application that:
@@ -97,7 +97,7 @@ Create a beautiful web application that:
 - Works immediately without a database
 ```
 
-### The Prompt Example 2 (A little more complicated)
+### 2.4.3 The Prompt Example 2 (A little more complicated)
 
 ```
 Create a Next.js page for an encouragement message app:
@@ -114,13 +114,13 @@ Create a Next.js page for an encouragement message app:
 
 ```
 
-## "Wow! So Why Learn Programming?"
+## 2.5 "Wow! So Why Learn Programming?"
 
-### Great Question!
+### 2.5.1 Great Question!
 
 If AI can build apps this fast, why spend many days learning programming?
 
-### Reasons You Still Need Programming Skills
+### 2.5.2 Reasons You Still Need Programming Skills
 
 #### 🧩 1. To Understand System Structure and Give Precise Requirements
 
@@ -162,7 +162,7 @@ Understanding programming allows you to properly evaluate and improve AI suggest
 
 ---
 
-### What You'll Learn Through This Course Series
+### 2.5.3 What You'll Learn Through This Course Series
 
 Through today's workshop and future lectures, you will gradually develop skills to:
 
@@ -174,7 +174,7 @@ Through today's workshop and future lectures, you will gradually develop skills 
 
 **Note:** These skills develop gradually through practice. Today is the first step in a longer learning journey.
 
-### Moving Forward
+### 2.5.4 Moving Forward
 
 **Now that you're inspired**, let's set up your development environment so you can start building your own applications!
 

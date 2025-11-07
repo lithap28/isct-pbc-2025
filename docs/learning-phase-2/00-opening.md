@@ -1,6 +1,6 @@
 # Section 0: Opening
 
-## Today's Goals
+## 0.1 Today's Goals
 
 By the end of this workshop, you will:
 
@@ -10,7 +10,7 @@ By the end of this workshop, you will:
 4. **Learn programming fundamentals** - Variables, functions, conditionals, loops, and more
 5. **Experience team development** - Use Git and GitHub like professional developers do
 
-## Today's Schedule
+## 0.2 Today's Schedule
 
 | Time | Activity | What You'll Do |
 |------|----------|----------------|
@@ -24,7 +24,7 @@ By the end of this workshop, you will:
 | 17:00-18:30 | Team Development | Learn Git and collaboration |
 | 18:30-19:00 | Summary & Q&A | Review and next steps |
 
-## Instructor Team
+## 0.3 Instructor Team
 
 ### Main Instructor
 - Leads the workshop
@@ -39,7 +39,7 @@ By the end of this workshop, you will:
 
 **Don't hesitate to ask for help!** That's what we're here for.
 
-## Learning Approach
+## 0.4 Learning Approach
 
 This workshop is **hands-on and practical**:
 
@@ -60,7 +60,7 @@ Simple concepts → Practice → Build on previous knowledge → More practice �
 3. **Raise your hand** for instructor help
 4. **Review materials** in the documentation
 
-## Ground Rules
+## 0.5 Ground Rules
 
 ### For the Best Learning Experience
 
@@ -84,9 +84,7 @@ Simple concepts → Practice → Build on previous knowledge → More practice �
    - Building things is satisfying
    - Enjoy the process
 
----
-
-## Ready to Begin!
+## 0.6 Ready to Begin!
 
 Let's get started with understanding **[Section 1: Web Application Basics](01-web-application-basics.md)**!
 

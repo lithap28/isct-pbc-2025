@@ -1,6 +1,6 @@
 # 4.2 Variables & Assignment
 
-## What You'll Learn
+## 4.2.1 What You'll Learn
 
 - What variables are and why we need them
 - How to declare variables in JavaScript/TypeScript
@@ -8,7 +8,7 @@
 - How to display variable values on screen
 - Using `console.log()` to inspect values
 
-## What is a Variable?
+## 4.2.2 What is a Variable?
 
 A **variable** is a named container that stores a value.
 
@@ -51,7 +51,7 @@ const petName = "Pochi"
 
 Now you only change it in one place!
 
-## Declaring Variables
+## 4.2.3 Declaring Variables
 
 ### Syntax
 
@@ -73,7 +73,7 @@ const petSpecies = "Dog"
 const isVaccinated = true
 ```
 
-## Variable Declaration Keywords
+## 4.2.4 Variable Declaration Keywords
 
 ### `const` (Constant)
 
@@ -117,7 +117,7 @@ petAge = 4 // Age increases
 // Never use var
 ```
 
-## Exercise 1: Create Pet Variables
+## 4.2.5 Exercise 1: Create Pet Variables
 
 Let's store information about a pet.
 
@@ -166,7 +166,7 @@ Pet color: Brown
 - We logged their values to the console
 - The console shows each value
 
-## Displaying Variables in JSX
+## 4.2.6 Displaying Variables in JSX
 
 Now let's show these values on the page, not just in the console.
 
@@ -181,7 +181,7 @@ To insert a JavaScript expression in JSX, use `{}`:
 
 The curly braces tell React: "This is JavaScript, not text!"
 
-## Exercise 2: Display Pet Information
+## 4.2.7 Exercise 2: Display Pet Information
 
 ### Task
 
@@ -245,7 +245,7 @@ const petColor = "Orange"
 
 3. Change back to Pochi or use your own pet's information
 
-## JavaScript Expressions in JSX
+## 4.2.8 JavaScript Expressions in JSX
 
 You can put **any JavaScript expression** inside `{}`:
 
@@ -264,7 +264,7 @@ You can put **any JavaScript expression** inside `{}`:
 
 
 
-## Common Mistakes
+## 4.2.9 Common Mistakes
 
 ### 1. Forgetting `const` or `let`
 
@@ -313,7 +313,7 @@ petName = "Koro" // ✅ OK
 // Displays: "Pochi"
 ```
 
-## TypeScript Type Annotations (Preview)
+## 4.2.10 TypeScript Type Annotations (Preview)
 
 TypeScript lets you specify what type of value a variable should hold:
 
@@ -335,7 +335,7 @@ const petName = "Pochi" // TypeScript knows this is a string
 
 We'll explore this more in the next section!
 
-## Checkpoint
+## 4.2.11 Checkpoint
 
 You should now be able to:
 
@@ -344,7 +344,7 @@ You should now be able to:
 - ✅ Perform calculations with variables
 
 
-## What's Next?
+## 4.2.12 What's Next?
 
 Variables are great for single values, but what if you want to group related data together?
 

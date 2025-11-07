@@ -1,6 +1,6 @@
 # 4.5 Conditionals
 
-## What You'll Learn
+## 4.5.1 What You'll Learn
 
 - If statements and else clauses
 - Comparison and logical operators
@@ -8,7 +8,7 @@
 - Conditional rendering in JSX
 - Showing different content based on data
 
-## What are Conditionals?
+## 4.5.2 What are Conditionals?
 
 **Conditionals** let your code make decisions based on conditions.
 
@@ -31,7 +31,7 @@ if (isRaining) {
 }
 ```
 
-## Comparison Operators
+## 4.5.3 Comparison Operators
 
 Used to compare values:
 
@@ -53,7 +53,7 @@ Used to compare values:
 
 **Always use `===` and `!==`** (strict equality) - it's safer!
 
-## Logical Operators
+## 4.5.4 Logical Operators
 
 Combine multiple conditions:
 
@@ -85,7 +85,7 @@ if (!isVaccinated) {
 }
 ```
 
-## If Statement
+## 4.5.5 If Statement
 
 ### Basic Syntax
 
@@ -105,7 +105,7 @@ if (age < 2) {
 }
 ```
 
-## If-Else Statement
+## 4.5.6 If-Else Statement
 
 ```typescript
 if (condition) {
@@ -127,7 +127,7 @@ if (age < 2) {
 }
 ```
 
-## If-Else If-Else Chain
+## 4.5.7 If-Else If-Else Chain
 
 ```typescript
 if (condition1) {
@@ -153,7 +153,7 @@ if (age < 2) {
 }
 ```
 
-## Exercise 1: Add Age Category to PetCard
+## 4.5.8 Exercise 1: Add Age Category to PetCard
 
 ### Task
 
@@ -245,7 +245,7 @@ if (age < 2) {
 - Template literal allows inserting variable into className
 - Display the age category text
 
-## Exercise 2: Add Species-Specific Messages
+## 4.5.9 Exercise 2: Add Species-Specific Messages
 
 ### Task
 
@@ -315,7 +315,7 @@ return (
 Each species should show its special message!
 
 
-## Switch Statement (Alternative to If-Else)
+## 4.5.10 Switch Statement (Alternative to If-Else)
 
 For multiple specific values:
 
@@ -347,7 +347,7 @@ switch (species) {
 - Range checks (use if-else)
 
 
-## Common Mistakes
+## 4.5.11 Common Mistakes
 
 ### 1. Using = Instead of ===
 
@@ -392,7 +392,7 @@ if (species === "Dog" || species === "Cat") {
 }
 ```
 
-## Checkpoint
+## 4.5.12 Checkpoint
 
 You should now understand:
 
@@ -401,7 +401,7 @@ You should now understand:
 - ✅ Logical operators (&&, ||, !)
 - ✅ Conditional rendering in JSX
 
-## What's Next?
+## 4.5.13 What's Next?
 
 You can now show/hide content based on conditions, but you're still manually creating three separate `<PetCard>` components.
 

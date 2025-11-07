@@ -1,13 +1,13 @@
 # 4.1 Hello World
 
-## What You'll Learn
+## 4.1.1 What You'll Learn
 
 - Navigate the Next.js project structure
 - Understand key files and folders
 - Edit a file and see changes in the browser
 - Use the browser developer tools
 
-## Project Structure Overview
+## 4.1.2 Project Structure Overview
 
 Let's explore the key files and folders in your project:
 
@@ -29,9 +29,7 @@ pet-management-starter/
 └── tailwind.config.ts    # Tailwind CSS configuration
 ```
 
-##
-
- Key Folders
+## 4.1.3 Key Folders
 
 ### `app/` Directory
 
@@ -53,7 +51,7 @@ Static files served directly:
 - Images: `/public/logo.png` → Access as `/logo.png`
 - Icons, fonts, etc.
 
-## Understanding `page.tsx`
+## 4.1.4 Understanding `page.tsx`
 
 Let's look at the homepage file.
 
@@ -123,7 +121,7 @@ export default function Home() {
 - **`}`** - Close the function
 
 
-## Understanding JSX
+## 4.1.5 Understanding JSX
 
 ### What is JSX?
 
@@ -165,7 +163,7 @@ You can embed JavaScript expressions using curly braces `{}`:
 
 We'll use this extensively in the next sections!
 
-## Exercise 1: Change the Text
+## 4.1.6 Exercise 1: Change the Text
 
 Let's make your first code change!
 
@@ -207,7 +205,7 @@ New content displayed
 
 This is called **Hot Module Replacement (HMR)** - changes appear instantly without full page reload!
 
-## Exercise 2: Add More Content
+## 4.1.7 Exercise 2: Add More Content
 
 Let's add a subtitle.
 
@@ -246,7 +244,7 @@ export default function Home() {
 
 3. **Save** and check the browser
 
-## Using the Browser Developer Tools
+## 4.1.8 Using the Browser Developer Tools
 
 Let's explore the tools that help you debug and understand your code.
 
@@ -293,7 +291,7 @@ export default function Home() {
 3. Hover over elements to see them highlighted on the page
 4. Click the selector tool (top-left of DevTools) to inspect specific elements
 
-## What's Next?
+## 4.1.9 What's Next?
 
 Now that you can navigate the project and make changes, you're ready to learn about **variables** - how to store and display data.
 

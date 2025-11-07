@@ -1,6 +1,6 @@
 # 4.3 Data Structures
 
-## What You'll Learn
+## 4.3.1 What You'll Learn
 
 - Primitive data types (string, number, boolean)
 - Creating and accessing objects
@@ -8,7 +8,7 @@
 - TypeScript type annotations
 - Structuring complex data
 
-## Primitive Data Types
+## 4.3.2 Primitive Data Types
 
 JavaScript has several basic data types:
 
@@ -65,7 +65,7 @@ const petOwner = null              // Intentionally empty
 let petNickname                    // Undefined (not assigned)
 ```
 
-## Objects
+## 4.3.3 Objects
 
 **Objects** group related data together using key-value pairs.
 
@@ -132,7 +132,7 @@ Use bracket notation when:
 - Property name is in a variable
 - Property name has spaces or special characters
 
-## Exercise 1: Create a Pet Object
+## 4.3.4 Exercise 1: Create a Pet Object
 
 ### Task
 
@@ -192,7 +192,7 @@ You should see all pet information displayed!
 - Clear structure and organization
 - Can easily add/remove properties
 
-## Arrays
+## 4.3.5 Arrays
 
 **Arrays** are ordered lists of values.
 
@@ -287,7 +287,7 @@ console.log(pets[0].name)  // "Pochi"
 console.log(pets[1].species)  // "Cat"
 ```
 
-## Exercise 2: Create a Pets Array
+## 4.3.6 Exercise 2: Create a Pets Array
 
 ### Task
 
@@ -375,7 +375,7 @@ You should see:
    - Save and see Piyo displayed instead!
    - Change back to `pets[3]`
 
-## TypeScript Type Annotations
+## 4.3.7 TypeScript Type Annotations
 
 TypeScript lets you define the shape of your data.
 
@@ -412,7 +412,7 @@ const pets: Pet[] = [
 ]
 ```
 
-## Exercise 3: Add Type Safety
+## 4.3.8 Exercise 3: Add Type Safety
 
 ### Task
 
@@ -484,7 +484,7 @@ VSCode will show a red squiggle under `age` because the type doesn't match!
 
 This is TypeScript helping you!
 
-## Nested Objects
+## 4.3.9 Nested Objects
 
 Objects can contain other objects:
 
@@ -509,7 +509,7 @@ console.log(pet.owner.name)           // "John"
 console.log(pet.address.city)         // "Tokyo"
 ```
 
-## Common Array Methods (Preview)
+## 4.3.10 Common Array Methods (Preview)
 
 We'll explore these more in later sections:
 
@@ -543,7 +543,7 @@ const names = pets.map(pet => pet.name)  // ["Pochi", "Tama", ...]
 
 Don't worry about understanding these yet - we'll cover them when needed!
 
-## Common Mistakes
+## 4.3.11 Common Mistakes
 
 ### 1. Forgetting Commas in Objects
 
@@ -588,7 +588,7 @@ console.log(pets[1])  // "Tama" (not "Pochi"!)
 // Remember: arrays start at index 0!
 ```
 
-## Checkpoint
+## 4.3.12 Checkpoint
 
 You should now understand:
 
@@ -599,7 +599,7 @@ You should now understand:
 - ✅ TypeScript type annotations
 - ✅ Benefits of structured data
 
-## What's Next?
+## 4.3.13 What's Next?
 
 You now have well-structured data (arrays of pet objects), but you're only displaying the first pet.
 

@@ -1,19 +1,19 @@
 # Section 1: Web Application Basics
 
-## Overview
+## 1.1 Overview
 
 - Understand what web applications are
 - Learn the client-server model
 - Identify the key components of web applications
 - Understand the role of each tool we'll use today
 
-## What is a Web Application?
+## 1.2 What is a Web Application?
 
-### Definition
+### 1.2.1 Definition
 
 A **web application** is a software application that runs in a web browser and is accessed over the internet.
 
-### Familiar Examples
+### 1.2.2 Familiar Examples
 
 You use web applications every day:
 
@@ -26,7 +26,7 @@ You use web applications every day:
 - **Netflix** - Movie streaming
 - **GitHub** - Code hosting
 
-### Web Applications vs. Websites
+### 1.2.3 Web Applications vs. Websites
 
 | Web Application | Traditional Website |
 |-----------------|---------------------|
@@ -38,12 +38,12 @@ You use web applications every day:
 
 **Note:** The line is often blurred - many modern websites have application features!
 
-## How Web Applications Work
+## 1.3 How Web Applications Work
 
-### The Client-Server Model
+### 1.3.1 The Client-Server Model
 ![](images/2025-11-02-13-41-31.png)
 
-### Request-Response Cycle
+### 1.3.2 Request-Response Cycle
 
 1. **You interact** with the browser (click a button, submit a form)
 2. **Browser sends a request** to the server over the internet
@@ -51,11 +51,11 @@ You use web applications every day:
 4. **Server sends a response** back to the browser
 5. **Browser updates** the display with new information
 
-## Key Components of Web Applications
+## 1.4 Key Components of Web Applications
 
 Every modern web application has these main parts:
 
-### 1. Frontend (Client-Side) Application
+### 1.4.1 Frontend (Client-Side) Application
 
 **What users see and interact with**
 
@@ -80,7 +80,7 @@ Every modern web application has these main parts:
 - Gmail's email list and reading pane
 - Notion's drag-and-drop interface
 
-### 2. Backend (Server-Side)
+### 1.4.2 Backend (Server-Side)
 
 **The logic and data processing**
 
@@ -104,7 +104,7 @@ Every modern web application has these main parts:
 - Gmail sending your email to recipients
 - Notion saving your document edits
 
-### 3. Database
+### 1.4.3 Database
 
 **Where data is stored permanently**
 
@@ -127,7 +127,7 @@ Every modern web application has these main parts:
 - Gmail storing all your emails
 - Notion storing all your documents and pages
 
-### 4. Platform (Environment)
+### 1.4.4 Platform (Environment)
 
 **Where the application lives on the internet**
 
@@ -146,7 +146,7 @@ Every modern web application has these main parts:
 └──────────────────────────────┘
 ```
 
-## Complete Picture
+## 1.5 Complete Picture
 
 Every modern web application has two main parts:
 - Frontend(Client-side) Application
@@ -158,7 +158,7 @@ Every parts require a platform as their runtime environment.
 ![](images/2025-11-02-14-08-10.png)
 
 
-### Example Flow: Adding a Pet to Your App
+### 1.5.1 Example Flow: Adding a Pet to Your App
 
 1. **Frontend:** User fills out a form (pet name, species, age) and clicks "Add Pet"
 2. **Frontend → Backend:** Browser sends the data to your API
@@ -168,11 +168,11 @@ Every parts require a platform as their runtime environment.
 6. **Backend → Frontend:** Sends success response
 7. **Frontend:** Updates the screen to show the new pet in the list
 
-## Tools We'll Use Today
+## 1.6 Tools We'll Use Today
 
 Now let's understand **why** we need each tool we'll set up.
 
-### Development Tools
+### 1.6.1 Development Tools
 
 #### VSCode (Visual Studio Code)
 **Your code editor**
@@ -221,7 +221,7 @@ Now let's understand **why** we need each tool we'll set up.
 **Analogy:** Like Google Drive, but specifically for programming and team coraboration
 
 
-## How These Tools Work Together
+### 1.6.2 How These Tools Work Together
 
 ```
 You write code in VSCode
@@ -240,9 +240,9 @@ Users access your app on the internet!
 ```
 ![](images/2025-11-02-14-59-39.png)
 
-## Development Workflow
+## 1.7 Development Workflow
 
-### During Development (Local)
+### 1.7.1 During Development (Local)
 
 ```
 1. Write code in VSCode
@@ -252,7 +252,7 @@ Users access your app on the internet!
 5. Test and iterate
 ```
 
-### Deploying to Production
+### 1.7.2 Deploying to Production
 
 ```
 1. Commit changes with Git
@@ -263,9 +263,9 @@ Users access your app on the internet!
 6. Your app is live on the internet!
 ```
 
-## Common Questions
+## 1.8 Common Questions
 
-### "Is this a lot to learn in one day?"
+### 1.8.1 "Is this a lot to learn in one day?"
 
 **Yes and no.**
 - You'll be **introduced** to all these tools
@@ -277,7 +277,7 @@ Users access your app on the internet!
 - Day 1: Learn what each control does and practice in parking lot
 - Mastery: Comes with hours of practice on real roads
 
-### "Do I need to memorize everything?"
+### 1.8.2 "Do I need to memorize everything?"
 
 **No!**
 - All materials are available for reference
@@ -285,7 +285,7 @@ Users access your app on the internet!
 - Looking things up is normal and expected
 - Even experienced developers Google constantly
 
-### "Why so many tools?"
+### 1.8.3 "Why so many tools?"
 
 **Modern web development is collaborative:**
 - Each tool solves a specific problem
@@ -293,7 +293,7 @@ Users access your app on the internet!
 - Using the right tool makes development easier
 - This is how professional developers work
 
-## What's Next?
+## 1.9 What's Next?
 
 Now that you understand the architecture and tools, you're ready to see something amazing:
 

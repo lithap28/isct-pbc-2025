@@ -1,6 +1,6 @@
 # 4.7 Functions
 
-## What You'll Learn
+## 4.7.1 What You'll Learn
 
 - What functions are and why they're useful
 - Function syntax and parameters
@@ -9,7 +9,7 @@
 - Event handlers
 - React state with useState
 
-## What is a Function?
+## 4.7.2 What is a Function?
 
 A **function** is a reusable block of code that performs a specific task.
 
@@ -63,7 +63,7 @@ const dog3Age = toDogYears(2)  // 14
 - ✅ Maintainable - change logic in one place
 - ✅ Testable - test functions independently
 
-## Function Syntax
+## 4.7.3 Function Syntax
 
 ### Basic Syntax
 
@@ -92,7 +92,7 @@ const sum = add(3, 5)  // 8
 4. **Body** in curly braces (the code)
 5. **`return`** statement (output)
 
-## Parameters and Arguments
+## 4.7.4 Parameters and Arguments
 
 ### Parameters
 
@@ -126,7 +126,7 @@ const result = describePet("Pochi", "Dog", 3)
 console.log(result)  // "Pochi is a 3 year old Dog"
 ```
 
-## Return Values
+## 4.7.5 Return Values
 
 **`return`** sends a value back to the caller:
 
@@ -174,7 +174,7 @@ console.log(result3) // Senior
 
 Once a `return` is executed, the function exits immediately.
 
-## Exercise 1: Create Your First Function
+## 4.7.6 Exercise 1: Create Your First Function
 
 ### Task
 
@@ -234,7 +234,7 @@ Find the age display line and update it:
 
 **Example:** Pochi (3 years) → "3 years old (21 in human years)"
 
-## Exercise 2: Add Age Category Function
+## 4.7.7 Exercise 2: Add Age Category Function
 
 ### Task
 
@@ -300,7 +300,7 @@ Add this after the name heading:
 
 7. **Save** and check - each pet should show their age category!
 
-## Exercise 3: Add Species Emoji Function
+## 4.7.8 Exercise 3: Add Species Emoji Function
 
 ### Task
 
@@ -367,7 +367,7 @@ export default function PetCard({ id, name, species, age, color, breed }: PetCar
 
 7. **Save** and check - each pet should have their species emoji!
 
-## Function Best Practices
+## 4.7.9 Function Best Practices
 
 ### 1. Name Functions Clearly
 
@@ -420,7 +420,7 @@ greet()           // "Hello, Guest!"
 greet("Pochi")    // "Hello, Pochi!"
 ```
 
-## Common Mistakes
+## 4.7.10 Common Mistakes
 
 ### 1. Calling Function Instead of Passing It
 
@@ -470,7 +470,7 @@ const getPet = () => { name: "Pochi" }  // Returns undefined!
 const getPet = () => ({ name: "Pochi" })
 ```
 
-## Checkpoint
+## 4.7.11 Checkpoint
 
 You should now understand:
 
@@ -480,7 +480,7 @@ You should now understand:
 - ✅ Importing and exporting functions
 - ✅ Using functions in components
 
-## What's Next?
+## 4.7.12 What's Next?
 
 You now know how to create functions, but you're writing a lot of code for common UI elements.
 

@@ -1,6 +1,6 @@
 # 5.4 Handling Conflicts
 
-## Objectives
+## 5.4.1 Objectives
 
 - Understand why merge conflicts occur
 - Recognize conflict markers in VSCode
@@ -8,7 +8,7 @@
 - Practice creating and resolving conflicts with a partner
 - Learn strategies to prevent conflicts
 
-## What is a Merge Conflict?
+## 5.4.2 What is a Merge Conflict?
 
 A **merge conflict** occurs when you and a teammate edit the same lines of the same file, and Git can't automatically decide which version to keep.
 
@@ -54,7 +54,7 @@ Hanako changes line 10: const emoji = "🐶"
 
 **Don't panic!** Conflicts are normal in team development. You'll learn to resolve them easily.
 
-## Recognizing Conflicts in VSCode
+## 5.4.3 Recognizing Conflicts in VSCode
 
 ### When You Pull and Get a Conflict
 
@@ -75,7 +75,7 @@ When you open a conflicted file, you'll see special markers:
 
 **The conflict markers are NOT code!** You need to remove them and choose what to keep.
 
-## VSCode's Conflict Resolution UI
+## 5.4.4 VSCode's Conflict Resolution UI
 
 VSCode makes conflict resolution visual and easy!
 
@@ -100,7 +100,7 @@ Just **click** the option you want! VSCode will:
 
 **That's it!** No command line needed.
 
-## Exercise 1: Create and Resolve a Conflict (Pair Exercise)
+## 5.4.5 Exercise 1: Create and Resolve a Conflict (Pair Exercise)
 
 ### Task
 
@@ -221,7 +221,7 @@ Work with a partner to intentionally create a conflict, then resolve it using VS
 
 **🎉 You successfully resolved a conflict!**
 
-## Exercise 2: Practice More Conflicts
+## 5.4.6 Exercise 2: Practice More Conflicts
 
 ### Round 2: Opposite Roles
 
@@ -244,7 +244,7 @@ Work with a partner to intentionally create a conflict, then resolve it using VS
 
 **This shows:** You can have multiple conflicts in one file!
 
-## Conflict Resolution Strategies
+## 5.4.7 Conflict Resolution Strategies
 
 ### Strategy 1: Accept Current
 
@@ -334,7 +334,7 @@ import { AddPetForm } from './components'
 <h1>Pet Management Dashboard</h1>
 ```
 
-## Preventing Conflicts
+## 5.4.8 Preventing Conflicts
 
 Conflicts happen, but you can reduce them:
 
@@ -402,7 +402,7 @@ Different sections → fewer conflicts!
 
 **Don't leave unpushed code overnight!**
 
-## What If You Get Stuck?
+## 5.4.9 What If You Get Stuck?
 
 ### Option 1: Abort the Merge
 
@@ -434,7 +434,7 @@ Different sections → fewer conflicts!
 
 **This loses conflict history but gets you unstuck.**
 
-## Understanding Merge Commits
+## 5.4.10 Understanding Merge Commits
 
 After resolving conflicts, you make a **merge commit**.
 
@@ -462,7 +462,7 @@ A---B---C---F (merge commit)
 2. Stage resolved files
 3. Commit
 
-## Checkpoint
+## 5.4.11 Checkpoint
 
 You should now be able to:
 
@@ -477,7 +477,7 @@ You should now be able to:
 
 **Remember:** Conflicts are normal! Don't be afraid of them.
 
-## What's Next?
+## 5.4.12 What's Next?
 
 Congratulations! You now know the fundamentals of team development with Git and GitHub:
 
@@ -497,4 +497,4 @@ In your workshop, you'll apply these skills while developing your pet management
 **Navigation:**
 - **Previous:** [← 5.3 Collaborating with GitHub](03-github-collaboration.md)
 - **Next:** [Section 6: Summary & Q&A →](../06-summary.md)
-- **Home:** [README](../../README.md)
+- **Home:** [README](../README.md)

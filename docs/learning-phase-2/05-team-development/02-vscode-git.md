@@ -1,6 +1,6 @@
 # 5.2 Working with VSCode Git
 
-## Objectives
+## 5.2.1 Objectives
 
 - Set up Git authentication in VSCode
 - Learn VSCode's Source Control interface
@@ -8,7 +8,7 @@
 - View commit history using VSCode's built-in features
 - Understand when to discard changes
 
-## Why Use VSCode for Git?
+## 5.2.2 Why Use VSCode for Git?
 
 **VSCode has excellent Git integration built-in:**
 - Visual interface - see changes at a glance
@@ -19,7 +19,7 @@
 
 **You can do everything through the GUI!**
 
-## VSCode Source Control Panel
+## 5.2.3 VSCode Source Control Panel
 
 ### Opening Source Control
 
@@ -55,7 +55,7 @@
 - `?` = Untracked (not in Git yet)
 - `U` = Merge conflict
 
-## Exercise 1: Make Your First Commit with VSCode
+## 5.2.4 Exercise 1: Make Your First Commit with VSCode
 
 ### Task
 
@@ -123,7 +123,7 @@ Your change is now:
 - ✅ Can be viewed or reverted later
 - ❌ Not yet on GitHub (we'll push later)
 
-## Viewing Git History
+## 5.2.5 Viewing Git History
 
 ### Built-in Git History
 
@@ -163,7 +163,7 @@ Your change is now:
 - Compare different commits
 - Understand project evolution
 
-## Viewing Changes Before Committing
+## 5.2.6 Viewing Changes Before Committing
 
 ### Inline Changes
 
@@ -194,7 +194,7 @@ Compare old vs new side-by-side:
 
 ![](images/2025-11-04-01-39-52.png)
 
-## Exercise 2: Stage Multiple Files
+## 5.2.7 Exercise 2: Stage Multiple Files
 
 ### Task
 
@@ -231,7 +231,7 @@ Make changes to multiple files and practice selective staging.
 - Easier to revert specific changes
 - Professional practice
 
-## Discarding Changes
+## 5.2.8 Discarding Changes
 
 Sometimes you want to throw away changes and start over.
 
@@ -268,7 +268,7 @@ Sometimes you want to throw away changes and start over.
 
 **This is safe to practice - you haven't committed anything yet!**
 
-## Common Workflows
+## 5.2.9 Common Workflows
 
 ### Daily Development Workflow
 
@@ -317,7 +317,7 @@ Sometimes you want to throw away changes and start over.
 2. Sign in to GitHub
 3. Grant permissions
 
-## Checkpoint
+## 5.2.10 Checkpoint
 
 You should now be able to:
 
@@ -330,7 +330,7 @@ You should now be able to:
 - ✅ View commit history using VSCode's built-in features
 - ✅ Discard unwanted changes
 
-## What's Next?
+## 5.2.11 What's Next?
 
 Now that you can make commits locally, you're ready to collaborate with your team!
 

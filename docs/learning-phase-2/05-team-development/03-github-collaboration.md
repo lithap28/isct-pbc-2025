@@ -1,6 +1,6 @@
 # 5.3 Collaborating with GitHub
 
-## Objectives
+## 5.3.1 Objectives
 
 - Understand local vs remote repositories
 - Learn to push commits to GitHub
@@ -9,7 +9,7 @@
 - Practice the commit-push-pull workflow
 - Adopt best practices for small team collaboration
 
-## Local vs Remote: Understanding the Setup
+## 5.3.2 Local vs Remote: Understanding the Setup
 
 ### The Two Locations
 
@@ -58,7 +58,7 @@
 4. Repeat
 ```
 
-## Initial Setup: Configure Git Pull Strategy
+## 5.3.3 Initial Setup: Configure Git Pull Strategy
 
 **Before starting team collaboration, configure how Git handles divergent branches:**
 
@@ -87,7 +87,7 @@ With this setting, Git automatically creates a merge commit to combine both chan
 
 **Run this command once per repository!**
 
-## Pushing: Sharing Your Work
+## 5.3.4 Pushing: Sharing Your Work
 
 **Push** = Upload your local commits to GitHub
 
@@ -135,7 +135,7 @@ Remote:   A---B---C---D  ← Now in sync!
 
 Your commits D and C are now on GitHub!
 
-## Exercise 1: Push Your Changes to GitHub
+## 5.3.5 Exercise 1: Push Your Changes to GitHub
 
 ### Task
 
@@ -168,7 +168,7 @@ Push the commits you made in the previous section to GitHub.
 - If authentication fails, sign in to GitHub in VSCode
 - Ask instructor if stuck
 
-## Pulling: Getting Others' Work
+## 5.3.6 Pulling: Getting Others' Work
 
 **Pull** = Download commits from GitHub to your computer
 
@@ -210,7 +210,7 @@ Remote:   A---B---C---D---E
 
 You now have commits D and E that your teammate made!
 
-## Exercise 2: Pull Team Changes
+## 5.3.7 Exercise 2: Pull Team Changes
 
 ### Task
 
@@ -231,7 +231,7 @@ One team member pushes, others pull to get the changes.
 
 **Everyone:** Take turns being the pusher and puller.
 
-## Inviting Team Members to Your Repository
+## 5.3.8 Inviting Team Members to Your Repository
 
 For pair exercises and team projects, you'll need to give teammates access to your repository.
 
@@ -285,7 +285,7 @@ If someone invites you:
 
 **Or:** Go to the repository URL → click "Accept invitation" banner
 
-## The Push-Pull Workflow
+## 5.3.9 The Push-Pull Workflow
 
 ### Golden Rule
 
@@ -325,7 +325,7 @@ If you try to push C:
 5. Repeat 2-4 throughout the day
 ```
 
-## Exercise 3: Practice the Workflow
+## 5.3.10 Exercise 3: Practice the Workflow
 
 ### Task
 
@@ -370,7 +370,7 @@ Form pairs or small groups (2-3 people).
 
 **This simulates real team development!**
 
-## Best Practices for Small Teams
+## 5.3.11 Best Practices for Small Teams
 
 ### 1. Communicate About Changes
 
@@ -450,7 +450,7 @@ Your teammate should understand what you did without looking at code!
 - Gets teammate changes early
 - Prevents big merge conflicts later
 
-## Checkpoint
+## 5.3.12 Checkpoint
 
 You should now be able to:
 
@@ -463,7 +463,7 @@ You should now be able to:
 - ✅ Work on different files with teammates
 - ✅ Stay in sync with team
 
-## What's Next?
+## 5.3.13 What's Next?
 
 You're now collaborating with your team! But what happens when you and a teammate edit the same part of a file?
 

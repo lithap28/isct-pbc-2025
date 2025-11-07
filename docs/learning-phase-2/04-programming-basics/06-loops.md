@@ -1,6 +1,6 @@
 # 4.6 Loops
 
-## What You'll Learn
+## 4.6.1 What You'll Learn
 
 - Why loops are essential
 - Array `map()` method
@@ -8,7 +8,7 @@
 - The importance of keys
 - Filtering arrays
 
-## Why Loops?
+## 4.6.2 Why Loops?
 
 Currently, you're rendering pet cards like this:
 
@@ -44,7 +44,7 @@ Currently, you're rendering pet cards like this:
 
 **Solution:** Use loops to automatically generate components!
 
-## The map() Method
+## 4.6.3 The map() Method
 
 The `map()` method loops through an array and creates something for each element.
 In React, we use `map()` to loop through data and create JSX elements.
@@ -61,7 +61,7 @@ array.map((element) => {
 - "For each item in the array..."
 - "...create a component using that item's data"
 
-## Using map() in JSX
+## 4.6.4 Using map() in JSX
 
 You can use `map()` to generate JSX elements:
 
@@ -86,7 +86,7 @@ return (
 </div>
 ```
 
-## Exercise 1: Render All Pets with map()
+## 4.6.5 Exercise 1: Render All Pets with map()
 
 ### Task
 
@@ -190,7 +190,7 @@ Save - the new pet appears automatically! No need to add another `<PetCard>` man
 - `{...pet}` - Spread all pet properties as props
 - `key={pet.name}` - Unique identifier (explained below)
 
-## The key Prop
+## 4.6.6 The key Prop
 
 When rendering lists, React needs a unique `key` for each element.
 
@@ -232,7 +232,7 @@ Warning: Each child in a list should have a unique "key" prop.
 
 **Always add keys when using map()!**
 
-## Exercise 2: Add Unique IDs
+## 4.6.7 Exercise 2: Add Unique IDs
 
 ### Task
 
@@ -331,7 +331,7 @@ export default function PetCard({ id, name, species, age, color, breed}: PetCard
 
 5. **Save** and check the browser - each pet card should now show its ID number before the name (like "#1 Pochi")!
 
-## Filtering Arrays
+## 4.6.8 Filtering Arrays
 
 Often you want to show only some items from an array.
 
@@ -363,7 +363,7 @@ You can chain `filter()` and `map()` together:
 }
 ```
 
-## Exercise 3: Filter Pets by Species
+## 4.6.9 Exercise 3: Filter Pets by Species
 
 ### Task
 
@@ -421,7 +421,7 @@ Remove the `.filter()` line:
 ))}
 ```
 
-## Other Array Methods
+## 4.6.10 Other Array Methods
 
 ### find()
 
@@ -459,7 +459,7 @@ const totalAge = pets.reduce((sum, pet) => sum + pet.age, 0)
 console.log(totalAge) // Sum of all ages
 ```
 
-## Common Mistakes
+## 4.6.11 Common Mistakes
 
 ### 1. Forgetting to Return
 
@@ -493,7 +493,7 @@ console.log(totalAge) // Sum of all ages
   <PetCard key={pet.id} {...pet} />
 ))}
 ```
-## Checkpoint
+## 4.6.12 Checkpoint
 
 You should now understand:
 
@@ -504,7 +504,7 @@ You should now understand:
 - ✅ Filtering arrays with `filter()`
 - ✅ Chaining array methods
 
-## What's Next?
+## 4.6.13 What's Next?
 
 You can now render dynamic lists.
 

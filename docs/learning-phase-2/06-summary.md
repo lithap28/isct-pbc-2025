@@ -1,10 +1,10 @@
 # Section 6: Summary & Q&A
 
-## Congratulations! 🎉
+## 6.1 Congratulations! 🎉
 
 You've completed the Programming Bootcamp! In just one day, you've gone from never writing code to building and deploying a real web application.
 
-## Your Achievements Today
+## 6.2 Your Achievements Today
 
 By the end of today, you:
 
@@ -18,7 +18,7 @@ By the end of today, you:
 
 **This is real development work.** What you did today is what professional developers do every day.
 
-## Thank You!
+## 6.3 Thank You!
 
 Thank you for:
 - Your attention and focus
